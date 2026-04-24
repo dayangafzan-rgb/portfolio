@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DAR AI Studio - Helping businesses use AI safely, clearly, and responsibly.">
+  <title>DAR AI Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">DAR AI Studio</div>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#readiness">Readiness Check</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn-outline">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="section hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">Helping businesses use AI safely, clearly, and responsibly</h1>
+      <p class="hero-subtitle">Practical AI oversight and implementation for modern teams.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Book a Call</a>
+        <a href="mailto:hello@daraistudio.com" class="btn-secondary">Email Us</a>
+        <a href="#readiness" class="text-link">Check AI Readiness &rarr;</a>
+      </div>
+    </div>
+    <div class="hero-bg-glow"></div>
+  </header>
+
+  <!-- Problem Section -->
+  <section id="problem" class="section problem-section">
+    <div class="container">
+      <h2 class="section-title">The Challenge</h2>
+      <p class="section-description">
+        AI is already in your business, but most teams are not managing it properly. 
+        Without clear oversight, AI adoption can lead to security risks, compliance failures, and wasted resources.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section services-section">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">🔍</div>
+          <h3>AI Readiness Check</h3>
+          <p>Assess your current infrastructure and team capabilities to implement AI effectively and safely.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🎓</div>
+          <h3>AI Oversight Training</h3>
+          <p>Equip your team with the knowledge to manage, monitor, and scale AI tools responsibly.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">⚖️</div>
+          <h3>ISO/IEC 42001 Support</h3>
+          <p>Guidance and frameworks to help your organization meet the AI Management System standard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mini AI Readiness Check Section -->
+  <section id="readiness" class="section readiness-section">
+    <div class="container">
+      <h2 class="section-title">Mini AI Readiness Check</h2>
+      <p class="section-subtitle">Take this 30-second assessment to see where you stand.</p>
+      
+      <div class="quiz-container" id="quiz-container">
+        <div class="question-block" data-question="1">
+          <p>1. Does your team have a documented policy for using AI tools at work?</p>
+          <div class="quiz-options">
+            <button class="quiz-btn" data-value="1">Yes</button>
+            <button class="quiz-btn" data-value="0">No</button>
+          </div>
+        </div>
+        
+        <div class="question-block" data-question="2">
+          <p>2. Do you have a process to review AI-generated content before it is published or used in decisions?</p>
+          <div class="quiz-options">
+            <button class="quiz-btn" data-value="1">Yes</button>
+            <button class="quiz-btn" data-value="0">No</button>
+          </div>
+        </div>
+
+        <div class="question-block" data-question="3">
+          <p>3. Are your employees trained on the data privacy implications of the AI tools they use?</p>
+          <div class="quiz-options">
+            <button class="quiz-btn" data-value="1">Yes</button>
+            <button class="quiz-btn" data-value="0">No</button>
+          </div>
+        </div>
+
+        <div class="quiz-result" id="quiz-result" style="display: none;">
+          <h3 id="result-title">Result</h3>
+          <p id="result-message"></p>
+          <button id="reset-quiz" class="btn-outline">Retake</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <h2 class="section-title">About DAR AI Studio</h2>
+      <div class="about-content">
+        <p>
+          DAR AI Studio brings practical, real-world experience to AI oversight. We believe that AI shouldn't be a black box or a compliance nightmare. Our mission is to guide businesses through the complexities of AI adoption, ensuring that innovation is always balanced with safety, clarity, and responsibility.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="container text-center">
+      <h2 class="section-title">Ready to take control of your AI?</h2>
+      <p class="contact-desc">Reach out today to discuss how we can help your business safely leverage AI.</p>
+      <div class="contact-links">
+        <a href="mailto:hello@daraistudio.com" class="btn-primary">hello@daraistudio.com</a>
+        <a href="#" class="btn-outline">Book a Consultation</a>
+        <a href="#" class="social-link">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2026 DAR AI Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

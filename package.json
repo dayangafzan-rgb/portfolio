@@ -1,0 +1,10 @@
+{
+  "name": "dar-ai-studio",
+  "version": "1.0.0",
+  "description": "DAR AI Studio One-Page Portfolio",
+  "scripts": {
+    "dev": "npx serve -p 3000 ."
+  },
+  "author": "",
+  "license": "ISC"
+}
